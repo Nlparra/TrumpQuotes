@@ -14,21 +14,22 @@
     <title>Trump Tweets!!!</title>
 </head>
 <body>
-
+<div class="main">
+ <h1>Making Tweets Great Again!</h1>
     <div id="root"></div>
     
+</div>
     <script type="text/babel">
     
     class Trump extends React.Component {
         
         render(){
             return(
-                <div>
-                <h1>Making Tweets Great Again!</h1>
                 <div className="image">
                 <p>{this.state.tweet}</p>
-                </div>
+                <div>
                 <button onClick={this.handleClick}>TWEET</button>
+                </div>
                 </div>
             )
         }

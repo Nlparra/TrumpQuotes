@@ -1,6 +1,6 @@
 *{
 text-align: center;
-margin: 0;
+ /* margin: 0; */
 padding: 0;
 }
 
@@ -8,7 +8,17 @@ body{
     background-repeat: no-repeat;
     background-size: 1400px 650px;
     font-size: 18px;
+    height: 100vh;
+    width: auto;
 }
+
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center
+}
+
 
 h1{
     margin-top: 40px;
@@ -19,12 +29,11 @@ h1{
 }
 
 div.image{
+    display: flex;
+    flex-direction: column;
     background-image: url(trumptweet.jpg);
-    margin-top: 100px;
-    margin-left: 200px;
     height: 200px;
-    margin-right: 500px;
-    position: absolute;
+    width: 590px;
 }
 
 p{
@@ -33,7 +42,8 @@ p{
 }
 
 button{
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    padding-top: 10px;
     height: 30px;
     width: 80px;
     border-radius: 5px;
